@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold-200: #f3e5ab;
+  --color-gold-300: #e8d073;
+  --color-gold-400: #dfba4b;
+  --color-gold-500: #d4af37;
+  --color-gold-600: #b8972e;
+  --color-gold-700: #937823;
+}
+
+@layer base {
+  body {
+    @apply bg-[#0a0a0a] text-white selection:bg-gold-500/30 selection:text-gold-200;
+  }
+}
